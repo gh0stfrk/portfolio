@@ -16,9 +16,10 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">about</a></li>
-          <li><a href="#experience">experience</a></li>
+          <li><a href="#experience">skills</a></li>
           <li><a href="#projects">projects</a></li>
           <li><a href="#contact">contact</a></li>
+          <li><a href="https://gh0stfrk.medium.com" onclick="toggleMenu()" target="_blank">blogs</a></li>
         </ul>
       </div>
     </nav>
@@ -36,24 +37,25 @@
           <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+          <li><a href="https://gh0stfrk.medium.com" onclick="toggleMenu()" target="_blank">blogs</a></li>
         </div>
       </div>
     </nav>
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.gif" alt="profile picture" />
+        <img src="./assets/profile-pic.gif" alt="profile picture" style="border-radius: 2rem;" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Salman Sayyed</h1>
         <p class="section__text__p2">Software Developer</p>
         <div class="btn-container">
-          <!-- <button
+          <button
             class="btn btn-color-2"
-            onclick="window.open('')"
+            onclick="window.open(`https://twitter.com/gh0stfrk`)"
           >
-            Twitter -->
+            Twitter
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact
@@ -61,11 +63,11 @@
         </div>
         <div id="socials-container">
         <a href="https://www.linkedin.com/in/syydsalman/" target="_blank">
-        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+        <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" />
         </a>
               
-        <a href="https://github.com/salmansyyd" target="_blank">
-        <img src="./assets/github.png" alt="My Github profile" class="icon" />
+        <a href="https://github.com/gh0stfrk" target="_blank">
+        <img src="./assets/github.png" alt="Github profile" class="icon" />
         </a>
 
         </div>
@@ -85,11 +87,11 @@
         </div>
         <div class="about-details-container">
           <div class="text-container">
-                <p>
-                I'm a software developer with a passion for <strong>Python</strong>, <strong>JavaScript</strong>, <strong>Go</strong>, and <strong>Java</strong>. <br><br>
-                Whether I'm designing user interfaces in Figma or deploying applications on AWS, my goal is to transform ideas into efficient and innovative software solutions. <br><br>I prioritize clean coding practices and thrive on continuous learning. <br><br>Let's navigate this ever-evolving tech landscape together!
-                </p>
-          </div>
+            <p>
+            I write clean and efficient Python code that works well. I can build web services (APIs) using Django, FastAPI, and Flask.  I'm also an expert at storing information in databases like PostgreSQL, MySQL, and MongoDB.  <br><br>
+            Beyond coding, I'm comfortable using Linux, the AWS Cloud, and Github Actions to automate tasks.  Let's team up and create something awesome!
+            </p>
+            </div>
         </div>
       </div>
       <img
@@ -102,59 +104,37 @@
 
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend 🎨</h2>
+            <h2 class="experience-sub-title">Frontend</h2>
             <div class="article-container">
               <article>
                 <img src="./assets/html.png" alt="html" width="80" height="80">
-                <div>
-                  <h3>HTML</h3>
-                </div>
               </article>
               <article>
                 <img src="./assets/css.png" alt="" width="80" height="80">
-                <div>
-                  <h1>
-                    CSS
-                  </h1>
-                </div>
               </article>
               <article>
                 <img src="./assets/javascript.png" alt="" width="80" height="80">
-                <div>
-                  <h3>
-                    Javascript
-                  </h3>
-                </div>
               </article>
               <article>
                 <img src="./assets/bootstrap.png" alt="" width="70" height="60">
-                <div>
-                  <h3>Bootstrap</h3>
-                </div>
               </article>
               <article>
                 <img src="./assets/figma.png" alt="" width="80" height="80">
-                <div>
-                  <h3>Figma</h3>
-                </div>
               </article>
               <article>
                 <img src="./assets/tailwind.png" alt=""
                 width="80" 
                 height="80"
                 >
-                <div>
-                  <h3>Tailwind</h3>
-                </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend 🍑</h2>
+            <h2 class="experience-sub-title">Backend</h2>
             <div class="article-container">
               <article>
                 <img
@@ -162,9 +142,6 @@
                   width="80"
                   height="80"
                 />
-                <div>
-                  <h3>Firebase</h3>
-                </div>
               </article>
               <article>
                 <img
@@ -172,9 +149,6 @@
                   height="80"
                   width="80"
                 />
-                <div>
-                  <h3>Python</h3>
-                </div>
               </article>
               <article>
                 <img
@@ -182,9 +156,6 @@
                   height="80"
                   width="80"
                 />
-                <div>
-                  <h3>Go</h3>
-                </div>
               </article>
               <article>
                 <img
@@ -192,9 +163,6 @@
                   height="80"
                   width="80"
                 />
-                <div>
-                  <h3>MySql</h3>
-                </div>
               </article>
               <article>
                 <img
@@ -202,9 +170,6 @@
                   height="80"
                   width="80"
                 />
-                <div>
-                  <h3>AWS</h3>
-                </div>
               </article>
               <article>
                 <img
@@ -212,9 +177,6 @@
                   height="80"
                   width="80"
                 />
-                <div>
-                  <h3>Git</h3>
-                </div>
               </article>  
             </div>
           </div>
@@ -246,7 +208,7 @@
             <div class="btn-container">
                 <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('', '_blank')"
+                onclick="window.open(`https://github.com/salmansyyd/Chem-Break`, '_blank')"
             >
             Github
             </button>    
@@ -265,7 +227,7 @@
     <div class="btn-container">
         <button
         class="btn btn-color-2 project-btn"
-        onclick="window.open('', '_blank')"
+        onclick="window.open('https://github.com/salmansyyd/LinkHub', '_blank')"
         >
         Github
     </button>
@@ -274,16 +236,16 @@
 <div class="details-container color-container">
     <div class="article-container">
         <img
-        src="./assets/gitmate-s.png"
+        src="https://www.svgrepo.com/show/353657/django-icon.svg"
         alt="Project 3"
         class="project-img"
         />
     </div>
-    <h2 class="experience-sub-title project-title">Gitmate</h2>
+    <h2 class="experience-sub-title project-title">django-blogs</h2>
     <div class="btn-container">
         <button
         class="btn btn-color-2 project-btn"
-        onclick="window.open('https://github.com/salmansyyd/gitmate-mvp/tree/main', '_blank')"
+        onclick="window.open('https://github.com/gh0stfrk/djangoblogs', '_blank')"
         >
         Github
     </button>
@@ -330,7 +292,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
